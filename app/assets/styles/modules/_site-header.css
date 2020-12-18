@@ -16,8 +16,7 @@
     &__btn-container {
         @mixin atMedium {
             float: right;    
-        }
-        
+        }        
     }
 
     &__logo {
@@ -52,7 +51,7 @@
             height: 3px;
             background-color: #fff;
             transform-origin: 0 0;
-            transition:transform .3s ease-out;
+            transition: transform .3s ease-out;
         }
 
         &__middle {
@@ -100,7 +99,7 @@
 
     &__menu-content {
         opacity: 0;
-        transform: scale(1.9);
+        transform: scale(1.2);
         transition: all .3 ease-out;
         position: relative;
         z-index: -10;
